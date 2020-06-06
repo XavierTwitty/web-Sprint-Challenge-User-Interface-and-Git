@@ -50,6 +50,26 @@ table {
 * {
     box-sizing: border-box;
 }
+header{
+    padding: 3rem 2rem;
+    margin: auto 0;
+    border: 2px solid red;
+}
+.logo{
+    border: 2px solid red;
+    width: 35%;
+    display: flex;
+
+}
+.links{
+    border: 2px dotted yellow;
+    display: flex;
+}
+    nav{
+        border: 2px solid black;
+        display: flex;
+    }
+
 
 html, body {
     height: 100%;
