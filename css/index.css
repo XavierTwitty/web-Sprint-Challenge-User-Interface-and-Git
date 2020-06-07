@@ -76,7 +76,7 @@ header{
     }
 .image{
     width: 95%;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin: auto 0;
     padding-left: 22%;
 }
@@ -122,11 +122,16 @@ p {
 }
 
 .middle-content h2 {
+    border: 2px solid green;
     padding: 0 2%;
     margin-bottom: 0;
 }
 
 .middle-content .boxes {
+    margin: 100px 0;
+    height: 50px;
+    width: 80%;
+    border: 2px solid blue;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -142,7 +147,76 @@ p {
     align-items: center;
     justify-content: center;
 }
+.boxone{
+    background-color: teal;
+   /* display: flex;
+    align-items: center;
+    justify-content: center; */
+} 
 
+.boxtwo{
+    background-color: gold;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+}
+.boxthree{
+    background-color: cadetblue;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+}
+.boxfour{
+    background-color: coral;
+   /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+}
+.boxfive{
+    background-color: crimson;
+   /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+}
+.boxsix{
+    background-color: forestgreen;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+}
+.boxseven{
+    background-color: darkorchid;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+}
+.boxeight{
+    background-color: hotpink;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+}
+.boxnine{
+    background-color: indigo;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+}
+.boxten{
+    background-color: dodgerblue;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
