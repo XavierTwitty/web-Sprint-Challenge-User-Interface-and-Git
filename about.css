@@ -54,6 +54,6 @@ time, mark, audio, video {
     padding-left: 7%;
     
 }
- div .container about-page{
-    border: 5px solid black;
+.about{
+    width: 75%;
 }
