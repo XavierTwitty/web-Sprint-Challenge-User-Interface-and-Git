@@ -73,6 +73,9 @@ header{
         width: 100%;
         /* border: 2px solid black; */
         display: flex;
+        color: red;
+        animation-name: example;
+        animation-duration: 10s;
     }
 .image{
     width: 95%;
@@ -531,4 +534,13 @@ footer nav a {
         text-decoration: none;
     }
     
+}
+
+input {
+    width: 100%;;
+}
+
+@keyframes example {
+    from {background-color : yellow;}
+    to {background-color: blueviolet;}
 }
